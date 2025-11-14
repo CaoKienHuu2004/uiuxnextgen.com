@@ -376,7 +376,7 @@ body {
 
 /* Section Styles */
 section {
-    padding: 6rem 0;
+    padding: 4rem 0;
 }
 
 .section-header {
@@ -621,7 +621,7 @@ section {
 
 @media (min-width: 768px) {
     .news-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -633,7 +633,7 @@ section {
 .timeline-desktop {
     display: none;
     position: relative;
-    padding: 4rem 0;
+    padding: 0.8rem 0;
 }
 
 .timeline-line {
@@ -687,8 +687,12 @@ section {
 }
 
 .timeline-card {
+    height: 210px;
     margin-top: 2rem;
-    padding: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
     border-radius: 1rem;
     background: var(--card);
     border: 1px solid var(--border);

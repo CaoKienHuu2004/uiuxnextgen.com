@@ -54,12 +54,7 @@ window.addEventListener('scroll', () => {
 
 // Timeline Data
 const timelineData = [
-    {
-        id: 1,
-        title: "Start",
-        date: "05/11/2025",
-        description: "Công bố cuộc thi và thể lệ chính thức",
-    },
+    
     {
         id: 2,
         title: "Đăng ký",
@@ -78,24 +73,24 @@ const timelineData = [
         date: "11/11 - 21/11/2025",
         description: "Nộp bài dự thi vòng sơ loại",
     },
-    // {
-    //     id: 5,
-    //     title: "Workshop 1",
-    //     date: "22/11/2025",
-    //     description: "Workshop về UI Design Fundamentals",
-    // },
+    {
+        id: 5,
+        title: "Workshop 1",
+        date: "22/11/2025",
+        description: "Workshop về UI Design Fundamentals",
+    },
     {
         id: 6,
         title: "Vòng bán kết",
         date: "22/11 - 28/11/2025",
         description: "30 đội xuất sắc nhất tranh tài",
     },
-    // {
-    //     id: 7,
-    //     title: "Workshop 2",
-    //     date: "06/11/2025",
-    //     description: "Workshop về UX Research & Testing",
-    // },
+    {
+        id: 7,
+        title: "Workshop 2",
+        date: "06/11/2025",
+        description: "Workshop về UX Research & Testing",
+    },
     {
         id: 8,
         title: "Chung kết",
@@ -174,30 +169,30 @@ const roundsData = [
     {
         number: "01",
         title: "Vòng Đăng ký",
-        description: "Đăng ký tham gia cuộc thi và nộp thông tin cá nhân, portfolio. Tất cả sinh viên và người đam mê UI/UX đều có thể tham gia.",
+        description: "Đăng ký tham gia cuộc thi theo đội 3 thành viên. Các đội đăng ký qua form của BTC.",
         date: "05/11 - 18/11/2025",
-        participants: "Không giới hạn (Team 3 người)",
+        participants: "Không giới hạn",
     },
     {
         number: "02",
         title: "Vòng Sơ loại",
-        description: "Thí sinh nộp bài thiết kế theo đề bài được công bố. Ban giám khảo sẽ chọn ra 30 đội xuất sắc nhất để vào vòng bán kết.",
+        description: "Thí sinh nộp bài thiết kế theo yêu cầu từ BTC. Ban giám khảo sẽ chọn ra 30 đội xuất sắc nhất để vào vòng bán kết.",
         date: "11/11 - 21/11/2025",
         participants: "Top 30",
     },
     {
         number: "03",
         title: "Vòng Bán kết",
-        description: "30 đội được chọn sẽ tham gia workshop và phát triển dự án UI/UX hoàn chỉnh. Các mentor sẽ hỗ trợ và đánh giá.",
+        description: "30 đội được chọn sẽ tham gia workshop và phát triển dự án UI/UX hoàn chỉnh. Nộp bài thi theo yêu cầu của BTC.",
         date: "22/11 - 28/11/2025",
         participants: "Top 10",
     },
     {
         number: "04",
         title: "Chung kết",
-        description: "10 đội xuất sắc nhất sẽ trình bày dự án trước ban giám khảo và khán giả. Quyết định người chiến thắng cuối cùng.",
+        description: "10 đội xuất sắc nhất sẽ trình bày dự án và thực hiện thử thách trực tiếp trước Ban giám khảo.",
         date: "06/12/2025",
-        participants: "Top 3",
+        participants: "Ai sẽ là Quán quân ?",
     },
 ];
 
@@ -275,7 +270,7 @@ renderCarousel();
 setInterval(() => {
     currentSlide = (currentSlide + 1) % roundsData.length;
     updateCarousel();
-}, 5000);
+}, 1000005000);
 
 // Videos Data
 const videosData = [
@@ -287,7 +282,7 @@ const videosData = [
     // },
     {
         id: 2,
-        title: "Giới thiệu NextGen Interface 2025",
+        title: "Highlight UI/UX Hackathon 2022",
         thumbnail: "src/assets/uiuxhackathon2022.jpg",
         url: "https://www.youtube.com/embed/MNl4KmVLRPw?si=_9TCiQu2doxursoQ",
     },
