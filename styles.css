@@ -422,7 +422,7 @@ section {
 .about-image-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, var(--background) 20%, transparent);
+    background: linear-gradient(to top, var(--background) 0%, transparent);
 }
 
 .about-content h3 {
