@@ -294,7 +294,7 @@ const videosData = [
     },
     {
         id: 4,
-        title: "Chia sẻ từ Quán quân 2024",
+        title: "Phỏng vấn từ các đội thi 2022",
         thumbnail: "src/assets/chiasequanquan2022.jpg",
         url: "https://www.youtube.com/embed/5IELN985zVc?si=QoAzju7chlxM6MvT",
     },
