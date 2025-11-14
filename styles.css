@@ -89,6 +89,16 @@ body {
     color: white;
 }
 
+.logo-image {
+    width: 220px;
+    height: auto;
+}
+
+.logo-image-footer {
+    width: 270px;
+    height: auto;
+}
+
 .logo-title {
     font-size: 1.125rem;
     font-weight: 700;
