@@ -77,7 +77,7 @@ const timelineData = [
         id: 5,
         title: "Workshop 1",
         date: "22/11/2025",
-        description: "Workshop về UI Design Fundamentals",
+        description: "Workshop 1: AI trong thiết kế UI/UX",
     },
     {
         id: 6,
@@ -88,14 +88,14 @@ const timelineData = [
     {
         id: 7,
         title: "Workshop 2",
-        date: "06/11/2025",
-        description: "Workshop về UX Research & Testing",
+        date: "29/11/2025",
+        description: "Workshop 2: Từ Coder đến UI/UX Designer",
     },
     {
         id: 8,
         title: "Chung kết",
         date: "06/12/2025",
-        description: "10 đội xuất sắc nhất trình bày trực tiếp",
+        description: "10 đội xuất sắc nhất thực hiện thử thách trực tiếp",
     },
 ];
 
@@ -274,12 +274,12 @@ setInterval(() => {
 
 // Videos Data
 const videosData = [
-    // {
-    //     id: 1,
-    //     title: "Giới thiệu NextGen Interface 2025",
-    //     thumbnail: "src/assets/uiuxnextgen2025.png",
-    //     url: "https://www.youtube.com/embed/MNl4KmVLRPw?si=_9TCiQu2doxursoQ",
-    // },
+    {
+        id: 1,
+        title: "Warm-up UI/UX NextGen Interface 2025",
+        thumbnail: "src/assets/uiuxnextgen2025.png",
+        url: "https://www.youtube.com/embed/D_lmZoCooCw?si=t8t8BdnzRZaS5jX3",
+    },
     {
         id: 2,
         title: "Highlight UI/UX Hackathon 2022",
@@ -297,12 +297,6 @@ const videosData = [
         title: "Phỏng vấn từ các đội thi 2022",
         thumbnail: "src/assets/chiasequanquan2022.jpg",
         url: "https://www.youtube.com/embed/5IELN985zVc?si=QoAzju7chlxM6MvT",
-    },
-    {
-        id: 5,
-        title: "Workshop UX Research",
-        thumbnail: "src/assets/workshopux2022.jpg",
-        url: "https://www.youtube.com/embed/7LnA5hsWPCg?si=5FeF6OgSsWu4o_73",
     },
 ];
 
@@ -348,58 +342,101 @@ renderVideoThumbnails();
 const galleryData = [
     {
         id: 1,
-        url: "src/assets/workshopuidesign.jpg",
-        alt: "Workshop UI Design",
+        url: "src/warmup2025/IMG_6788.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
         category: "workshop",
-    },
-    {
-        id: 2,
-        url: "src/assets/thisinhthidau2022.jpg",
-        alt: "Thí sinh thi đấu",
-        category: "competition",
-    },
-    {
-        id: 3,
-        url: "src/assets/letraogiai2022.jpg",
-        alt: "Lễ trao giải",
-        category: "award",
-    },
-    {
-        id: 4,
-        url: "src/assets/presentationvongchungket2022.jpg",
-        alt: "Presentation vòng chung kết",
-        category: "competition",
-    },
-    {
-        id: 5,
-        url: "src/assets/mentorhuongdan2022.jpg",
-        alt: "Mentor hướng dẫn",
-        category: "workshop",
-    },
-    {
-        id: 6,
-        url: "src/assets/lamviecnhom2022.jpg",
-        alt: "Làm việc nhóm",
-        category: "competition",
     },
     {
         id: 7,
-        url: "src/assets/networkingevent2022.jpg",
-        alt: "Networking event",
+        url: "src/warmup2025/IMG_6795.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
         category: "workshop",
     },
     {
         id: 8,
-        url: "src/assets/chungket2022.jpg",
-        alt: "Chung kết 2022",
-        category: "award",
+        url: "src/warmup2025/IMG_6935.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
+        category: "workshop",
     },
     {
         id: 9,
-        url: "src/assets/teambuilding2022.jpg",
-        alt: "Team building",
+        url: "src/warmup2025/IMG_6945.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
         category: "workshop",
     },
+    {
+        id: 10,
+        url: "src/warmup2025/IMG_7106.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
+        category: "workshop",
+    },
+    {
+        id: 11,
+        url: "src/warmup2025/IMG_7216.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
+        category: "workshop",
+    },
+    {
+        id: 12,
+        url: "src/warmup2025/IMG_7085.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
+        category: "workshop",
+    },
+    {
+        id: 13,
+        url: "src/warmup2025/IMG_7471.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
+        category: "workshop",
+    },
+    {
+        id: 14,
+        url: "src/warmup2025/IMG_7499.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
+        category: "workshop",
+    },
+    {
+        id: 15,
+        url: "src/warmup2025/IMG_7702.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
+        category: "workshop",
+    },
+    {
+        id: 16,
+        url: "src/warmup2025/IMG_7566.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
+        category: "workshop",
+    },
+    
+    {
+        id: 2,
+        url: "src/warmup2025/IMG_7667.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
+        category: "workshop",
+    },
+    {
+        id: 3,
+        url: "src/warmup2025/IMG_7744.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
+        category: "workshop",
+    },
+    {
+        id: 4,
+        url: "src/warmup2025/IMG_7761.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
+        category: "workshop",
+    },
+    {
+        id: 5,
+        url: "src/warmup2025/IMG_7777.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
+        category: "workshop",
+    },
+    {
+        id: 6,
+        url: "src/warmup2025/IMG_7792.jpg",
+        alt: "Warm-up UI/UX NextGen Interface 2025",
+        category: "workshop",
+    }    
 ];
 
 const galleryGrid = document.getElementById('galleryGrid');
