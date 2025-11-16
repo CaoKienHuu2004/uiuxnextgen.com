@@ -277,7 +277,7 @@ const videosData = [
     {
         id: 1,
         title: "Warm-up UI/UX NextGen Interface 2025",
-        thumbnail: "src/assets/uiuxnextgen2025.png",
+        thumbnail: "src/assets/warm-up-cuoc-thi-ui-ux-nextgen-interface-2025.jpg",
         url: "https://www.youtube.com/embed/D_lmZoCooCw?si=t8t8BdnzRZaS5jX3",
     },
     {
